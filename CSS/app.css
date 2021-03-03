@@ -1,0 +1,26 @@
+button:hover {
+    background-color: red;
+    color: white;
+}
+button.post:hover {
+    background-color: yellow;
+    color: white;
+}
+button.btn:hover {
+    background-color: violet;
+    color: white;
+}
+button:active {
+    background-color: green;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+li.post:hover {
+    color: green;
+    font-weight: bolder;
+}
+p:hover {
+    background-color: aqua;
+    }
