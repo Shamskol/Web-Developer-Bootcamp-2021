@@ -7,3 +7,13 @@ h1 {
 section {
     color: aqua;
 }
+form {
+    color: violet;
+}
+button {
+    color: inherit;
+
+}
+input {
+    color: inherit;
+}
