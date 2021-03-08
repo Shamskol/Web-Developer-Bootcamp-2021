@@ -4,8 +4,52 @@ section {
     height: 800px;
 
 }
+/*Percentages are relative to some othervalue. Sometimes it's
+ a value from the parent and other times it's a value from 
+itself.*/
 div {
     background-color: #ddbea9;
     width: 50%;
     height: 50%;
 }
+h1 {
+    font-size:40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+#ems h2 { 
+    font-size: 2em,
+}
+#ems h3 {
+    font-size: 1.5em;
+}
+#ems p {
+    font-size: 1em;
+}
+#ems {
+    font-size: 20px;
+}
+button {
+
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+    background-color: #457b9d;
+    color: white;
+
+}
+#ems ul {
+    font-size: 1.5em;
+}
+#rems h2 {
+    font-size:3rem;
+}
+#rems h3 {
+    font-size:3rem;
+}
+#rems ul {
+    font-size:0.8rem;
+}
+/*Root EMS: Relative to the root html element's font size
+It is easier to work with. Tf the root font-size is 20px, 
+1 rem is always 20px, 2rem is always 40px, etc*/
