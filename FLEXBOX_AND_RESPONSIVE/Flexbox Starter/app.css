@@ -8,6 +8,9 @@ h1 {
 and it could be row(default) or column. It should be noted that 
 for the flex direction to work it should be preceded by the display
 property with the value of flex.*/
+
+    
+
 #container1 {
     background-color: #003049;
     width: 90%;
@@ -18,6 +21,7 @@ property with the value of flex.*/
     flex-direction: row;
     
 }
+
  div {
     width: 200px;
     height: 200px;
@@ -85,5 +89,65 @@ the items are displayed and whether or not they can wrap on to the next
     flex-flow: column wrap;
     
 }
+/*JUSTIFY CONTENT The justify-content property determines 
+where a browser should place the flex items within the row.
+The property works if the flex items have set widths and 
+if the total width of the items* is less than the flex 
+container. There are five possible values for the property:
+ .flex-start: aligns items to the left of the row
+ . flex-end: aligns items to the right side of the row
+ . center: centers the flex items in the middle of the container
+ .space-between: evenly spaces out the flex items, dividing
+  the space between them equally while aligning leftmost
+  item to the left and the rightmost item to the right
+  .space-around evenly: distributes the leftover space within the
+   container around all the adding space to the left-
+   and rightmost items as well*/
+#container7 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    justify-content: space-between;
+}
+#container8 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    justify-content: flex-start;    
+}
+.container {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    justify-content: space-around;    
+}
+#container9 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    justify-content: flex-end;    
+}
+#container10 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    justify-content: center;    
+}
+
 
 
