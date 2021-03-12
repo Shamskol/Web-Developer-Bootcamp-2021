@@ -148,6 +148,64 @@ container. There are five possible values for the property:
     display: flex;
     justify-content: center;    
 }
+/* ALIGN ITEMS The align-items property determines
+ how the items of of different heights are vertically 
+ placed within the container. There are five possible 
+ values:
+    . flex-start: aligns the tops of all items to
+      the top of the container
+    . flex-end: aligns the bottoms of all items to
+      the bottom of the container
+    . center: aligns the vertical centers of all flex items
+      to the vertical center of the container
+    . baseline: aligns the baseline of the first element
+      within each flex
+    . stretch: this stretches each item in the container to the same height*/
+ #container11 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    align-items: flex-start;    
+}
+#container12 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    align-items:flex-end;    
+}
+#container13 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    align-items: center;    
+}
+#container14 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    align-items: baseline;    
+}
+#container15 {
+    background-color: red;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    align-items: stretch;    
+}
 
 
 
