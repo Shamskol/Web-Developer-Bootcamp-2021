@@ -4,11 +4,74 @@ body {
 h1 {
     text-align: center;
 }
-#container {
+/* Ihe main axis is determined by the flex-direction property
+and it could be row(default) or column. It should be noted that 
+for the flex direction to work it should be preceded by the display
+property with the value of flex.*/
+#container1 {
     background-color: #003049;
     width: 90%;
     height: 500px;
-    margin: 0 auto;
+    margin: 10px auto;
     border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    
 }
+ div {
+    width: 200px;
+    height: 200px;
+}
+/* flex-direction set to row-reverse and main axis is right to left*/
+#container2 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+#container3 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    
+}
+#container4 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    
+}
+#container5 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    
+}
+#container6 {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 10px auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
