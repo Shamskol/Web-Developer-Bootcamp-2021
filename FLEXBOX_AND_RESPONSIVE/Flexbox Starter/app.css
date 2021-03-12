@@ -21,6 +21,7 @@ property with the value of flex.*/
  div {
     width: 200px;
     height: 200px;
+    color:white;
 }
 /* flex-direction set to row-reverse and main axis is right to left*/
 #container2 {
@@ -41,7 +42,7 @@ property with the value of flex.*/
     margin: 10px auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-flow:  column;
     
 }
 /*flex-direction set to column-reverse*/
@@ -55,6 +56,11 @@ property with the value of flex.*/
     flex-direction: column-reverse;
     
 }
+/*The flex-flow property lets you control both the direction in which 
+the items are displayed and whether or not they can wrap on to the next
+ line. Flex-flow requires two values separated by a space. The first is
+  the direction(ie row/row-reverse/column/column-reverse) and the 
+  second is whether the item can wrap(ie nowrap/wrap/wrap-reverse)*/
 #container5 {
     background-color: #003049;
     width: 90%;
@@ -62,7 +68,9 @@ property with the value of flex.*/
     margin: 10px auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse;
+    flex-wrap:wrap; */
+    flex-flow: column-reverse wrap;
     
 }
 #container6 {
@@ -72,7 +80,7 @@ property with the value of flex.*/
     margin: 10px auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     
 }
 
