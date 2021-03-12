@@ -60,7 +60,9 @@ property with the value of flex.*/
 the items are displayed and whether or not they can wrap on to the next
  line. Flex-flow requires two values separated by a space. The first is
   the direction(ie row/row-reverse/column/column-reverse) and the 
-  second is whether the item can wrap(ie nowrap/wrap/wrap-reverse)*/
+  second is whether the item can wrap(ie nowrap/wrap/wrap-reverse)
+  NOTE THAT THE FLEX-FLOW PROPERTY IS SHORTHAND FOR TWO OTHER RELATED
+  CSS PROPERTIES FLEX-DIRECTION AND FLEX-WRAP*/
 #container5 {
     background-color: #003049;
     width: 90%;
