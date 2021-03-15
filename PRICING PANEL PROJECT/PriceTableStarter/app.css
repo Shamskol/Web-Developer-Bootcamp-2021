@@ -57,20 +57,21 @@ html {
     box-sizing: border-box;
 }
 .panel {
-   width: 70%;
-    padding: 150px 250px 150px 100px;
+   width: 80%;
+    padding: 50px 50px 50px 50px;
     border-radius: 10px;
     background-color: #FFFFFF;
     text-transform: uppercase; 
     text-align: center;
-    margin: 50px auto;
+    margin: 180px auto;
     display: flex;
     flex-direction: column;
     max-width: 960px; 
 }
 .pricing-plan {
-   
-    border-left: 1px solid #E1F1FF;
+   margin: 0 auto;
+    border-right: 1px solid #E1F1FF;
+    width: 30%;
 }
 .pricing-header {
     color: grey;
@@ -95,6 +96,7 @@ padding: 15px;
     padding: 15px 25px;
     text-decoration: none;
     margin-bottom: 10px;
+    
 }
  .pricing-button:hover {
     background-color: #E1F1FF;
@@ -114,6 +116,7 @@ padding: 15px;
 }
 .pricing-img {
     margin-bottom: 20px;
+    width: 75%;
 }
 @media(min-width: 900px) {
     .panel {
